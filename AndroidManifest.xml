@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avengers">
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Avengers">
+        <activity
+            android:name=".Homepagefinal"
+            android:exported="true" />
+        <activity
+            android:name=".Avengers2"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".Bgmusic"
+            android:exported="true" />
+        <activity
+            android:name=".Strange"
+            android:exported="true" />
+        <activity
+            android:name=".grid2"
+            android:exported="true" />
+        <activity
+            android:name=".page2"
+            android:exported="true" />
+        <activity
+            android:name=".page1"
+            android:exported="true" />
+        <activity
+            android:name=".Alert"
+            android:exported="true" />
+        <activity
+            android:name=".peter1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".clint2"
+            android:exported="true" />
+        <activity
+            android:name=".spiderman"
+            android:exported="true" />
+        <activity
+            android:name=".wanda"
+            android:exported="true" />
+        <activity
+            android:name=".thor1"
+            android:exported="true" />
+        <activity
+            android:name=".black"
+            android:exported="true" />
+        <activity
+            android:name=".hulk"
+            android:exported="true" />
+        <activity
+            android:name=".cap"
+            android:exported="true" />
+        <activity
+            android:name=".Tony"
+            android:exported="true" />
+        <activity
+            android:name=".load1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
